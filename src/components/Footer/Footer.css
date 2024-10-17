@@ -1,0 +1,83 @@
+.footer-container {
+    background-color: rgb(76, 67, 67);
+    width: 100%;
+    padding: 20px 0; /* Adjust padding instead of height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0; /* Use margin instead of relative positioning */
+}
+
+h4 {
+    color: greenyellow;
+    margin: 10px 0; /* Use margin instead of relative positioning */
+}
+
+.contact h3 {
+    color: rgb(255, 255, 255);
+    margin: 10px 0; /* Adjust margin instead of absolute positioning */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; /* Space above icons */
+}
+
+.instagram, .telegram, .facebook {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Space above email input */
+}
+
+.email-input input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #213547;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #213547;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.email-input input[type="email"]::placeholder {
+    color: #9ca3af;
+}
+
+.email-input input[type="email"]:focus {
+    border-color: #1e90ff;
+}
+
+.email-input input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #213547;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-input input[type="submit"]:hover {
+    background-color: #1e90ff;
+}
+
+
+
